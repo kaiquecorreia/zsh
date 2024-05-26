@@ -1,4 +1,3 @@
-source ~/zsh-snap/znap.zsh
 source ~/.nvm/nvm.sh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -115,3 +114,5 @@ export NVM_DIR="$HOME/.nvm"
 chpwd() {
   ~/asksuite-node-version.sh
 }
+
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
